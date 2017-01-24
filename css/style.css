@@ -1,0 +1,62 @@
+body {
+  background: #FF7043;
+  height: 2000px; /* TODO: For Content Height */
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  margin: 0;
+  /*text-align: center;*/
+}
+
+::selection {
+  background: #3f3f4e;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+.title p {
+  color: #212129;
+  font-size: 1.3em;
+}
+
+.title .notice {
+  color: #fff;
+}
+.title .notice span {
+  color: #212129;
+  border-bottom: #fff 2px solid;
+}
+
+/*STYLES*/
+#pagetop {
+  margin-top: 300px;
+  position: fixed;
+  background: #06c;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  height: 120px;
+  font-size: 23px;
+  padding-top: 50px;
+  transition: height 0.3s linear 0s, padding  0.3s linear 0s;
+  overflow: hidden;
+}
+#menu {
+  position: absolute;
+  background: #004a95;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  transition: height 0.3s linear 0s;
+}
+#wrapper {
+  margin-top: 230px;
+}
